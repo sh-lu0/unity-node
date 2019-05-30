@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{51512011-B333-C634-EFF8-3FA7D13C76F3}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PositionSync.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PositionSync.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6f25f131-675c-45d1-913b-8b66635f5d83" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
