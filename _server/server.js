@@ -5,7 +5,9 @@ var wss = new WebSocketServer({
 
 wss.on('connection', function (ws) {
     ws.on('message', function (message) {
-        console.log('received: %s', message);
+        console.log('received: %s', message)
+        // 受け取った位置情報を送る
+        ws.send(message)
     });
-    ws.send('This is server');
+    ws.send('This is server')
 });
