@@ -12,7 +12,7 @@ public class PositionSync : MonoBehaviour
 
     [SerializeField] private Transform _syncObjTransform;   //Share transform
 
-    [SerializeField] private SyncPhase _nowPhase;
+    [SerializeField] private SyncPhase _nowPhase; // Idling or Syncing
 
     private WebSocket ws;
 
@@ -43,6 +43,7 @@ public class PositionSync : MonoBehaviour
         //On catch message event
         ws.OnMessage += (object sender, MessageEventArgs e) => {
             print(e.Data);
+            // TODO:ここから敵プレイヤーのクラスを呼び出して値を変更する
         };
 
         //On error event
